@@ -1,0 +1,16 @@
+搭建SSM项目
+1.新建maven工程
+2.修改目录，修改pom.xml文件
+3.添加SSM框架所需依赖
+4.创建jdbc.properties属性配置文件
+5.新建applicationContext_dao.xml文件进行数据访问层配置
+6.新建applicationContext_service.xml文件进行业务逻辑层配置
+7.新建springmvc.xml文件配置springmvc框架
+8.新建sqlMapperfig.xml文件进行分页插件的配置
+9.使用逆向工程生成pojo和mapper文件
+10.开发业务逻辑层实现登录判断
+11.开发控制器AdminAction完成登陆处理
+12.改造页面发送登录请求，验证登录
+
+*所有界面层一定会有业务逻辑层对象
+*所有业务逻辑层一定会有数据访问层对象
